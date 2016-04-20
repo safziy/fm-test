@@ -48,6 +48,13 @@
 	<!-- <mvc:default-servlet-handler/> -->
     
     <!-- 定义无需Controller的url<->view直接映射 -->
-	<!-- <mvc:view-controller path="/" view-name="redirect:/index.jsp"/> -->
+	<mvc:view-controller path="/" view-name="redirect:/admin/main"/>
+	
+	<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basenames" value="i18n.messages" />
+	</bean>
+	
+	<!-- 获取本地 -->  
+   <bean id="localeResolver" class="org.springframework.web.servlet.i18n.CookieLocaleResolver"/>
 	
 </beans>

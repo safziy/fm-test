@@ -15,7 +15,7 @@
 	<description>Spring公共配置</description>
 	
 	<!-- required -->
-	<!-- <import resource="sercurity/applicationContext-shiro.xml" /> -->
+	<import resource="sercurity/applicationContext-shiro.xml" />
 	
 
 	<!-- 使用annotation 自动注册bean,并检查@Required,@Autowired的属性已被注入 -->

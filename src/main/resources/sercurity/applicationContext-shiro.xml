@@ -14,7 +14,7 @@
 	</bean>
 
 	<!-- 項目自定义的Realm -->
-	<bean id="shiroDbRealm" class="com.elog.fs.admin.sercurity.ShiroDbRealm">
+	<bean id="shiroDbRealm" class="com.safziy.fm.admin.sercurity.ShiroDbRealm">
 	
 	</bean>
 	<!-- Shiro Filter -->
