@@ -29,7 +29,7 @@
 		
 			<util:map>
 				<entry key="authc">
-					<bean class="com.elog.fs.admin.sercurity.FormAuthenticationWithLockFilter" >
+					<bean class="com.safziy.fm.admin.sercurity.FormAuthenticationWithLockFilter" >
 						<property name="maxLoginAttempts" value="5"/>
 					</bean>
 				</entry>
